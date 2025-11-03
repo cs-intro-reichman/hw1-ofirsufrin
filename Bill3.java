@@ -10,7 +10,7 @@ public class Bill3 {
 	    double X = b / 3;
 		X = Math.ceil(X);
 		System.out.println("Dear " + args[2] + ", " + args[1] +
-		 " and " + args[0] + ": pay " + X + " Shekels each.");
+		 ", and " + args[0] + ": pay " + X + " Shekels each");
 
 	}
 
