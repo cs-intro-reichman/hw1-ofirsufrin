@@ -12,7 +12,7 @@ public class FVCalc {
 	double X = Math.pow(H,N);
 	double FV = CV * X; // hishuv nusha
 	System.out.println("After " + N + " years, $" + CV + " saved at " +
-	rateInput +"% will yield " + ((int)FV) + "$");	
+	rateInput +"% will yield " + "$" + ((int)FV));	
 
 	}
 }
